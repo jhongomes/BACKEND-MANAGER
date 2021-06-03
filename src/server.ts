@@ -6,7 +6,7 @@ import express, { Request, Response, NextFunction } from 'express';
 
 
 import AppError from './errors/AppError';
-
+import './database';
 
 const app = express();
  
